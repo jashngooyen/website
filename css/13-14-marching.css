@@ -1,7 +1,7 @@
 .version._13_14_marching /* version checker */
 {
-	color: #000005;
-	background-color: #9F6306;
+	color: #00001C;
+	background-color: #205D96;
 }
 
 .html
@@ -51,7 +51,7 @@
 	width: 101px;
 	margin-right: -10000px;
 	margin-top: 36px;
-	left: 100px;
+	left: 136px;
 }
 
 #u1817
@@ -294,9 +294,9 @@
 	z-index: 29;
 	min-height: 45px;
 	background-color: transparent;
+	line-height: 58px;
 	font-size: 48px;
 	text-align: center;
-	line-height: 58px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 }
@@ -319,9 +319,9 @@
 	z-index: 34;
 	min-height: 45px;
 	background-color: transparent;
+	line-height: 44px;
 	font-size: 37px;
 	text-align: center;
-	line-height: 44px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 }
@@ -339,9 +339,9 @@
 	width: 920px;
 	min-height: 73px;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
-	line-height: 24px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	margin-left: 20px;
@@ -368,9 +368,9 @@
 	width: 920px;
 	min-height: 73px;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
-	line-height: 24px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	margin-left: 20px;

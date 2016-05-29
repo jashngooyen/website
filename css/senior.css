@@ -1,7 +1,7 @@
 .version.senior /* version checker */
 {
-	color: #0000E1;
-	background-color: #ED65E7;
+	color: #0000FD;
+	background-color: #FE8787;
 }
 
 .html
@@ -50,7 +50,7 @@
 	width: 101px;
 	margin-right: -10000px;
 	margin-top: 36px;
-	left: 100px;
+	left: 136px;
 }
 
 #u1817
@@ -311,9 +311,9 @@
 	width: 213px;
 	min-height: 38px;
 	background-color: transparent;
+	line-height: 22px;
 	font-size: 18px;
 	text-align: center;
-	line-height: 22px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;

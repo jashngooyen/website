@@ -1,7 +1,7 @@
 .version._15_16_lsyw /* version checker */
 {
-	color: #0000FB;
-	background-color: #8FDE46;
+	color: #00001D;
+	background-color: #2D5BC7;
 }
 
 .html
@@ -50,7 +50,7 @@
 	width: 101px;
 	margin-right: -10000px;
 	margin-top: 36px;
-	left: 100px;
+	left: 136px;
 }
 
 #u1817
@@ -294,9 +294,9 @@
 	width: 920px;
 	min-height: 73px;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
-	line-height: 24px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	margin-left: 186px;
