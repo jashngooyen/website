@@ -1,7 +1,7 @@
 .version._15_16_marching /* version checker */
 {
-	color: #000019;
-	background-color: #815BCD;
+	color: #00000C;
+	background-color: #40FE5D;
 }
 
 .html
@@ -361,7 +361,7 @@
 	position: relative;
 }
 
-#u3770-21
+#u3770-18
 {
 	z-index: 42;
 	width: 920px;
@@ -376,12 +376,12 @@
 	position: relative;
 }
 
-#u3770-2,#u3770-3
+#u3770-2
 {
 	text-align: left;
 }
 
-#u3770-5,#u3770-7,#u3770-9,#u3770-11,#u3770-13,#u3770-14,#u3770-18,#u3770-19
+#u3770-4,#u3770-6,#u3770-8,#u3770-10,#u3770-11,#u3770-15,#u3770-16
 {
 	text-align: center;
 }
