@@ -1,7 +1,7 @@
 .version._13_14_marching /* version checker */
 {
 	color: #00001C;
-	background-color: #205D96;
+	background-color: #2975E6;
 }
 
 .html
@@ -26,7 +26,6 @@
 #page_position_content
 {
 	margin-top: -36px;
-	padding-bottom: 54px;
 	width: 0.01px;
 }
 
@@ -362,7 +361,7 @@
 	position: relative;
 }
 
-#u3009-4
+#u3009-6
 {
 	z-index: 42;
 	width: 920px;
@@ -370,12 +369,21 @@
 	background-color: transparent;
 	line-height: 24px;
 	font-size: 20px;
-	text-align: left;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	margin-left: 20px;
 	margin-top: 17px;
 	position: relative;
+}
+
+#u3009-2,#u3009-3
+{
+	text-align: left;
+}
+
+#u3009-4
+{
+	text-align: center;
 }
 
 body

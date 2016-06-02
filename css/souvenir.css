@@ -1,7 +1,7 @@
 .version.souvenir /* version checker */
 {
-	color: #000003;
-	background-color: #2BF2EE;
+	color: #0000F4;
+	background-color: #78CEA2;
 }
 
 .html
@@ -26,6 +26,7 @@
 #page_position_content
 {
 	margin-top: -36px;
+	padding-bottom: 25px;
 	width: 0.01px;
 }
 
@@ -293,9 +294,9 @@
 	z-index: 29;
 	min-height: 45px;
 	background-color: transparent;
+	line-height: 58px;
 	font-size: 48px;
 	text-align: center;
-	line-height: 58px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 }
@@ -318,9 +319,9 @@
 	z-index: 33;
 	min-height: 45px;
 	background-color: transparent;
+	line-height: 44px;
 	font-size: 37px;
 	text-align: center;
-	line-height: 44px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 }
@@ -338,9 +339,9 @@
 	width: 920px;
 	min-height: 73px;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	text-align: left;
-	line-height: 24px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	margin-left: 20px;
@@ -352,9 +353,9 @@
 {
 	z-index: 47;
 	width: 0.01px;
-	height: 168px;
-	left: -69px;
-	margin-top: 25px;
+	height: 0px;
+	margin-left: 42px;
+	margin-top: 155px;
 	position: relative;
 }
 
@@ -367,8 +368,8 @@
 	border-color: transparent;
 	background-color: #191919;
 	background-color: rgba(0,0,0,0.9);
-	top: 68px;
-	left: 88px;
+	top: -62px;
+	left: -23px;
 	-pie-background: rgba(0,0,0,0.9);
 }
 
@@ -505,12 +506,15 @@
 
 #u3578
 {
-	position: absolute;
 	width: 1121px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	padding-bottom: 89px;
+	position: fixed;
+	bottom: -13px;
+	left: 50%;
+	margin-left: -549px;
 }
 
 #u3578popup
@@ -677,8 +681,8 @@
 	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
-	top: 561px;
-	left: 534px;
+	top: 431px;
+	left: 423px;
 }
 
 #u3606-4popup
@@ -697,8 +701,8 @@
 	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
-	top: 560px;
-	left: 534px;
+	top: 430px;
+	left: 423px;
 }
 
 #u3593-4popup
