@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://nintendoto.github.io/website" resolutions="1x" timestamp="1464879998791">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://nintendoto.github.io/website" resolutions="1x" timestamp="1464880147295">
   <folder name="phone">
     <folder name="css">
       <file name="cereal-box.css" crc="4107295331" ref="phone>cereal-box"/>
@@ -227,7 +227,7 @@
   <file name="index.html" crc="3948743898" mt="1464490111579" redirect="true"/>
   <file name="technical.html" crc="267813358" seo="true" mt="1464490087047" redirect="true"/>
   <file name="performance.html" crc="3855241875" seo="true" mt="1464879471131" redirect="true"/>
-  <file name="marching-band.html" crc="3833776770" seo="true" mt="1464879599861" redirect="true"/>
+  <file name="marching-band.html" crc="3889101296" seo="true" mt="1464880136667" redirect="true"/>
   <file name="concert-band.html" crc="452780721" seo="true" mt="1464490087047" redirect="true"/>
   <file name="winter-guard.html" crc="135424029" seo="true" mt="1464490087047" redirect="true"/>
   <file name="13-14-marching.html" crc="112201054" seo="true" mt="1464790355579" redirect="true"/>
