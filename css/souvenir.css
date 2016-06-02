@@ -1,7 +1,7 @@
 .version.souvenir /* version checker */
 {
-	color: #0000F4;
-	background-color: #78CEA2;
+	color: #0000E6;
+	background-color: #7B1DB5;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 922.5249999999984px;
+	min-height: 923px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -26,7 +25,6 @@
 #page_position_content
 {
 	margin-top: -36px;
-	padding-bottom: 25px;
 	width: 0.01px;
 }
 
@@ -349,13 +347,61 @@
 	position: relative;
 }
 
+#u3771-4
+{
+	z-index: 98;
+	min-height: 45px;
+	background-color: transparent;
+	line-height: 44px;
+	font-size: 37px;
+	text-align: center;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+}
+
+#u3771-4-bw
+{
+	z-index: 98;
+	min-height: 45px;
+	margin-top: 10px;
+}
+
+#u3772-4
+{
+	z-index: 102;
+	width: 920px;
+	min-height: 73px;
+	background-color: transparent;
+	line-height: 24px;
+	font-size: 20px;
+	text-align: left;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	margin-left: 20px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#u3773
+{
+	z-index: 106;
+	width: 300px;
+	min-height: 35px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 330px;
+	margin-top: 16px;
+	position: relative;
+}
+
 #slideshowu3576
 {
 	z-index: 47;
 	width: 0.01px;
 	height: 0px;
-	margin-left: 42px;
-	margin-top: 155px;
+	margin-left: 31px;
+	margin-top: 146px;
 	position: relative;
 }
 
@@ -512,9 +558,9 @@
 	background-color: transparent;
 	padding-bottom: 89px;
 	position: fixed;
-	bottom: -13px;
+	bottom: -38px;
 	left: 50%;
-	margin-left: -549px;
+	margin-left: -561px;
 }
 
 #u3578popup
