@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "souvenir.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.0.0.309"/>
+  <title>SOUVENIR</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?3950230183"/>
+  <link rel="stylesheet" type="text/css" href="css/souvenir.css?3866828213" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans-condensed:n7:default.js" type="text/javascript">\x3C/script>');
+</script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--HTML Widget code-->
+    
+<style>
+
+.audioplayer
+{
+	height: 2.5em; /* 40 */
+	position: relative;
+	z-index: 1;
+}
+	.audioplayer-mini
+	{
+		width: 2.5em; /* 40 */
+		margin: 0 auto;
+	}
+	.audioplayer > div
+	{
+		position: absolute;
+	}
+.audioplayer {
+    color: #FFFFFF;
+	background: #333333;
+}
+    
+.audioplayer-playpause
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+	.audioplayer-mini .audioplayer-playpause
+	{
+		width: 100%;
+	}
+    
+    /* Color */
+	.audioplayer-playpause:hover,
+	.audioplayer-playpause:focus
+	{
+		background-color: 222222;
+	}
+	.audioplayer-playpause a
+	{
+		display: block;
+	}
+
+	.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
+	{
+		width: 0;
+		height: 0;
+		border: 0.5em solid transparent; /* 8 */
+		border-right: none;
+		border-left-color: #FFFFFF;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.5em 0 0 -0.25em; /* 8 4 */
+	}
+
+	.audioplayer-playing .audioplayer-playpause a
+	{
+		width: 0.75em; /* 12 */
+		height: 0.75em; /* 12 */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.375em 0 0 -0.375em; /* 6 */
+	}
+    
+		.audioplayer-playing .audioplayer-playpause a:before,
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			width: 40%;
+			height: 100%;
+			background-color: #FFFFFF;
+			content: '';
+			position: absolute;
+			top: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:before
+		{
+			left: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			right: 0;
+		}
+        
+        
+.audioplayer-time
+{
+	width: 4.375em; /* 70 */
+	height: 100%;
+	line-height: 2.5em; /* 40 */
+	text-align: center;
+	z-index: 2;
+	top: 0;
+}
+	.audioplayer-time-current
+	{
+		border-left: 1px solid #111111;
+		left: 2.5em; /* 40 */
+	}
+	.audioplayer-time-duration
+	{
+		right: 2.5em; /* 40 */
+	}
+		.audioplayer-novolume .audioplayer-time-duration
+		{
+			border-right: 0;
+			right: 0;
+		}
+        
+       
+.audioplayer-bar
+{
+	height: 0.875em; /* 14 */
+	background-color: #222222;
+	cursor: pointer;
+	z-index: 1;
+	top: 50%;
+	right: 6.875em; /* 110 */
+	left: 6.875em; /* 110 */
+	margin-top: -0.438em; /* 7 */
+}
+	.audioplayer-novolume .audioplayer-bar
+	{
+		right: 4.375em; /* 70 */
+	}
+	.audioplayer-bar div
+	{
+		width: 0;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+    
+	.audioplayer-bar-loaded
+	{
+		background-color: #555555;
+		z-index: 1;
+	}
+
+	.audioplayer-bar-played
+	{
+        /* Accent Color */
+		background: #007FD1;
+		z-index: 2;
+	}
+
+.audioplayer-volume
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	border-left: 1px solid #111111;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	right: 0;
+}
+
+
+	.audioplayer-volume:hover,
+	.audioplayer-volume:focus
+	{
+		background-color: #222222;
+        
+
+	}
+	.audioplayer-volume-button
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+
+		.audioplayer-volume-button a
+		{
+			width: 0.313em; /* 5 */
+			height: 0.375em; /* 6 */
+			background-color: #FFFFFF;
+			display: block;
+			position: relative;
+			z-index: 1;
+			top: 40%;
+			left: 35%;
+		}
+			.audioplayer-volume-button a:before,
+			.audioplayer-volume-button a:after
+			{
+				content: '';
+				position: absolute;
+			}
+            
+			.audioplayer-volume-button a:before
+			{
+				width: 0;
+				height: 0;
+				border: 0.5em solid transparent; /* 8 */
+				border-left: none;
+				border-right-color: #FFFFFF;
+				z-index: 2;
+				top: 50%;
+				right: -0.25em;
+				margin-top: -0.5em; /* 8 */
+			}
+            
+            /* Color */
+			.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
+			{
+				/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
+				width: 0.313em; /* 5 */
+				height: 0.313em; /* 5 */
+				border: 0.25em double #FFFFFF; /* 4 */
+				border-width: 0.25em 0.25em 0 0; /* 4 */
+				left: 0.563em; /* 9 */
+				top: -0.063em; /* 1 */
+				-webkit-border-radius: 0 0.938em 0 0; /* 15 */
+				-moz-border-radius: 0 0.938em 0 0; /* 15 */
+				border-radius: 0 0.938em 0 0; /* 15 */
+				-webkit-transform: rotate( 45deg );
+				-moz-transform: rotate( 45deg );
+				-ms-transform: rotate( 45deg );
+				-o-transform: rotate( 45deg );
+				transform: rotate( 45deg );
+			}
+
+	.audioplayer-volume-adjust
+	{
+		width: 100%;
+		height: 6.25em; /* 100 */
+		cursor: default;
+		position: absolute;
+		left: 0;
+		top: -9999px;
+		background: #222222;
+        
+
+        
+	}
+		.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
+		{
+			opacity: 0;
+		}
+		.audioplayer-volume:hover .audioplayer-volume-adjust
+		{
+			top: auto;
+			bottom: 100%;
+		}
+		.audioplayer-volume-adjust > div
+		{
+			width: 40%;
+			height: 80%;
+			background-color: #555555;
+			cursor: pointer;
+			position: relative;
+			z-index: 1;
+			margin: 30% auto 0;
+		}
+        
+
+			.audioplayer-volume-adjust div div
+			{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+                /* Accent Color */
+				background: #007FD1;
+			}
+	.audioplayer-novolume .audioplayer-volume
+	{
+		display: none;
+	} 
+</style>
+
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="browser_width colelem" id="u260-bw">
+     <div id="u260"><!-- group -->
+      <div class="clearfix" id="u260_align_to_page">
+       <nav class="MenuBar clearfix grpelem" id="menuu1816"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u1817"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1820" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1821-4"><!-- content --><p>JOSHUA NGUYEN</p></div></a>
+        </div>
+       </nav>
+       <nav class="MenuBar clearfix grpelem" id="menuu1912"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u1927"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1930" href="composition.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1933-4"><!-- content --><p>COMPOSITION</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u1913"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1916" href="technical.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1918-4"><!-- content --><p>TECHNICAL</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u1920"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1921" href="performance.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1924-4"><!-- content --><p>PERFORMANCE</p></div></a>
+        </div>
+       </nav>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u3558-4-bw">
+     <div class="clearfix" id="u3558-4"><!-- content -->
+      <p><span id="u3558">PIANO PERFORMANCE</span></p>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u3560-4-bw">
+     <div class="clearfix" id="u3560-4"><!-- content -->
+      <p>&quot;Souvenir&quot;</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u3561-10"><!-- content -->
+     <p>&nbsp;&nbsp;&nbsp;&nbsp; For the last shows of the 2015-2016 Season for the Drama Dawg Theatre Company, the annual Senior Student Directed One-Act Plays were in order. It being my first year as a Varsity Technician, I was in the first to be picked and the top groups to be assigned to in terms of potential plays to work. Due to my background in musical performance, I was specially chosen to take part in Joseph Cambell's production of &quot;Souvenir: A Fantasia on the Life of Florence Foster Jenkins&quot;.</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp; &quot;Souvenir&quot; is based on a true story upon Florence Foster Jenkins, an opera singer that rose to stardom because of her unique 'inner voice'. Due to the heavy aria and opera repertoire, the playbook practically calls for a live piano accompanist, which is where I became a part of the picture. My instrumental performance experience on piano had only been in existance for a few months, as the only other experience I had as a pianist for an ensemble was for the 2016 UIL Concert Band program for the McKinney North High School Bulldawg Band's Honors Band; serving as the pianist for our performances of &quot;Danzon No. 2&quot; by Antonio Márquez. However, I was ready to step up to the task at hand, getting all of the excerpts learned within a month.</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp; The main struggle during the learning period was mainly not the excerpts themselves. As classical pieces, they fit the common tonality and composition as any étude, so it was easy to just think, &quot;execute an E major arpeggio starting on the E above middle C.&quot; The main problems were getting the contemporary jazz piece, &quot;One With My Baby,&quot; under my fingers, as well as finding time to practice all of the music. March to May being the arts' competition season, I was floored with Winter Guard Championships and Band UIL, as well as the closure of the year for academics with AP and SAT Testing. I took my lunch periods to practice on the Choir Hall piano and re-allocated my meals across my class periods to maximize free time. All of my efforts culminated into a pleasant performance after only a month of preparation.</p>
+    </div>
+    <div class="browser_width colelem" id="u3771-4-bw">
+     <div class="clearfix" id="u3771-4"><!-- content -->
+      <p>The Queen of the Night Aria</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u3772-4"><!-- content -->
+     <p>&nbsp;&nbsp;&nbsp;&nbsp; One of the main aspects of the show is how Florence Foster Jenkins aspires to perform Mozart's Queen of the Night Aria. During the show, FFJ is offered a chance to record the Queen of the Night Aria for a record, the scene itself calling for the recording to be played from a record player. I grabbed a piano accompaniment online and had our lead actress, Zayde Vetter, sing along with an actual recording. The result:</p>
+    </div>
+    <div class="colelem" id="u3773"><!-- custom html -->
+     
+		<div id="wrapper">
+			<audio preload="auto" controls>
+            <!--<source src=" "><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			 <source src="assets/souveniraria.wav"><!-- Hide -->
+			</audio>
+
+			</div>
+
+</div>
+    <div class="SlideShowWidget clearfix widget_invisible colelem" id="slideshowu3576"><!-- none box -->
+     &nbsp;
+     <div class="popup_anchor" id="u3597popup">
+      <div class="SlideShowContentPanel rgba-background clearfix" id="u3597"><!-- stack box -->
+       <div class="SSSlide clip_frame grpelem" id="u3667"><!-- image -->
+        <img class="block ImageInclude" id="u3667_img" data-src="images/karla%20edge%201535.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3676"><!-- image -->
+        <img class="block ImageInclude" id="u3676_img" data-src="images/karla%20edge%201543.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3685"><!-- image -->
+        <img class="block ImageInclude" id="u3685_img" data-src="images/karla%20edge%201547.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3694"><!-- image -->
+        <img class="block ImageInclude" id="u3694_img" data-src="images/karla%20edge%201549.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3703"><!-- image -->
+        <img class="block ImageInclude" id="u3703_img" data-src="images/karla%20edge%201568.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3712"><!-- image -->
+        <img class="block ImageInclude" id="u3712_img" data-src="images/karla%20edge%201570.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3721"><!-- image -->
+        <img class="block ImageInclude" id="u3721_img" data-src="images/karla%20edge%201578.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3730"><!-- image -->
+        <img class="block ImageInclude" id="u3730_img" data-src="images/karla%20edge%201584.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3739"><!-- image -->
+        <img class="block ImageInclude" id="u3739_img" data-src="images/karla%20edge%201585.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u3748"><!-- image -->
+        <img class="block ImageInclude" id="u3748_img" data-src="images/karla%20edge%201606.jpg" src="images/blank.gif" alt="" data-width="346" data-height="461"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u3578popup">
+      <div class="SSSlideLinks clearfix" id="u3578"><!-- horizontal-rows box -->
+       <div class="SSSlideLink clip_frame grpelem" id="u3670"><!-- image -->
+        <img class="block" id="u3670_img" src="images/karla%20edge%201535-crop-u3670.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3679"><!-- image -->
+        <img class="block" id="u3679_img" src="images/karla%20edge%201543-crop-u3679.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3688"><!-- image -->
+        <img class="block" id="u3688_img" src="images/karla%20edge%201547-crop-u3688.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3697"><!-- image -->
+        <img class="block" id="u3697_img" src="images/karla%20edge%201549-crop-u3697.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3706"><!-- image -->
+        <img class="block" id="u3706_img" src="images/karla%20edge%201568-crop-u3706.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3715"><!-- image -->
+        <img class="block" id="u3715_img" src="images/karla%20edge%201570-crop-u3715.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3724"><!-- image -->
+        <img class="block" id="u3724_img" src="images/karla%20edge%201578-crop-u3724.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3733"><!-- image -->
+        <img class="block" id="u3733_img" src="images/karla%20edge%201584-crop-u3733.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3742"><!-- image -->
+        <img class="block" id="u3742_img" src="images/karla%20edge%201585-crop-u3742.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u3751"><!-- image -->
+        <img class="block" id="u3751_img" src="images/karla%20edge%201606-crop-u3751.jpg" alt="" width="100" height="75"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u3606-4popup">
+      <div class="SSPreviousButton clearfix" id="u3606-4"><!-- content -->
+       <p>&lt;</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u3593-4popup">
+      <div class="SSNextButton clearfix" id="u3593-4"><!-- content -->
+       <p>&gt;</p>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?183364071" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?3957776250" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
+  <script src="scripts/webpro.js?3803554875" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow.js?242596657" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlay.js?493285861" type="text/javascript"></script>
+  <script src="scripts/touchswipe.js?4038331989" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.resizeHeight()/* resize height */
+Muse.Utils.initWidget('#slideshowu3576', function(elem) { $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:5000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false})); });/* #slideshowu3576 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+  
+  <!--HTML Widget code-->
+  
+<script>
+!function(e,t,a){var i="ontouchstart"in t,n=i?"touchstart":"mousedown",o=i?"touchmove":"mousemove",d=i?"touchcancel":"mouseup",u=function(e){var t=e/3600,a=Math.floor(t),i=e%3600/60,n=Math.floor(i),o=Math.ceil(e%3600%60);return o>59&&(o=0,n=Math.ceil(i)),n>59&&(n=0,a=Math.ceil(t)),(0==a?"":a>0&&a.toString().length<2?"0"+a+":":a+":")+(n.toString().length<2?"0"+n:n)+":"+(o.toString().length<2?"0"+o:o)},l=function(e){var t=a.createElement("audio");return!(!t.canPlayType||!t.canPlayType("audio/"+e.split(".").pop().toLowerCase()+";").replace(/no/,""))};e.fn.audioPlayer=function(t){var t=e.extend({classPrefix:"audioplayer",strPlay:"Play",strPause:"Pause",strVolume:"Volume"},t),a={},r={playPause:"playpause",playing:"playing",stopped:"stopped",time:"time",timeCurrent:"time-current",timeDuration:"time-duration",bar:"bar",barLoaded:"bar-loaded",barPlayed:"bar-played",volume:"volume",volumeButton:"volume-button",volumeAdjust:"volume-adjust",noVolume:"novolume",muted:"muted",mini:"mini"};for(var s in r)a[s]=t.classPrefix+"-"+r[s];return this.each(function(){if("audio"!=e(this).prop("tagName").toLowerCase())return!1;var r=e(this),s=r.attr("src"),v=r.get(0).getAttribute("autoplay"),v=""===v||"autoplay"===v?!0:!1,m=r.get(0).getAttribute("loop"),m=""===m||"loop"===m?!0:!1,c=!1;"undefined"==typeof s?r.find("source").each(function(){return s=e(this).attr("src"),"undefined"!=typeof s&&l(s)?(c=!0,!1):void 0}):l(s)&&(c=!0);var h=e('<div class="'+t.classPrefix+'">'+(c?e("<div>").append(r.eq(0).clone()).html():'<embed src="'+s+'" width="0" height="0" volume="100" autostart="'+v.toString()+'" loop="'+m.toString()+'" />')+'<div class="'+a.playPause+'" title="'+t.strPlay+'"><a href="#">'+t.strPlay+"</a></div></div>"),f=h.find(c?"audio":"embed"),f=f.get(0);if(c){h.find("audio").css({width:0,height:0,visibility:"hidden"}),h.append('<div class="'+a.time+" "+a.timeCurrent+'"></div><div class="'+a.bar+'"><div class="'+a.barLoaded+'"></div><div class="'+a.barPlayed+'"></div></div><div class="'+a.time+" "+a.timeDuration+'"></div><div class="'+a.volume+'"><div class="'+a.volumeButton+'" title="'+t.strVolume+'"><a href="#">'+t.strVolume+'</a></div><div class="'+a.volumeAdjust+'"><div><div></div></div></div></div>');var p=h.find("."+a.bar),y=h.find("."+a.barPlayed),g=h.find("."+a.barLoaded),b=h.find("."+a.timeCurrent),P=h.find("."+a.timeDuration),C=h.find("."+a.volumeButton),E=h.find("."+a.volumeAdjust+" > div"),w=0,M=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.currentTime=Math.round(f.duration*(theRealEvent.pageX-p.offset().left)/p.width())},L=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.volume=Math.abs((theRealEvent.pageY-(E.offset().top+E.height()))/E.height())},S=function(){var e=setInterval(function(){return f.buffered.length<1?!0:(g.width(f.buffered.end(0)/f.duration*100+"%"),void(Math.floor(f.buffered.end(0))>=Math.floor(f.duration)&&clearInterval(e)))},100)},V=f.volume,j=f.volume=.111;Math.round(1e3*f.volume)/1e3==j?f.volume=V:h.addClass(a.noVolume),P.html("…"),b.html(u(0)),f.addEventListener("loadeddata",function(){S(),P.html(e.isNumeric(f.duration)?u(f.duration):"…"),E.find("div").height(100*f.volume+"%"),w=f.volume}),f.addEventListener("timeupdate",function(){b.html(u(f.currentTime)),y.width(f.currentTime/f.duration*100+"%")}),f.addEventListener("volumechange",function(){E.find("div").height(100*f.volume+"%"),f.volume>0&&h.hasClass(a.muted)&&h.removeClass(a.muted),f.volume<=0&&!h.hasClass(a.muted)&&h.addClass(a.muted)}),f.addEventListener("ended",function(){h.removeClass(a.playing).addClass(a.stopped)}),p.on(n,function(e){M(e),p.on(o,function(e){M(e)})}).on(d,function(){p.unbind(o)}),C.on("click",function(){return h.hasClass(a.muted)?(h.removeClass(a.muted),f.volume=w):(h.addClass(a.muted),w=f.volume,f.volume=0),!1}),E.on(n,function(e){L(e),E.on(o,function(e){L(e)})}).on(d,function(){E.unbind(o)})}else h.addClass(a.mini);h.addClass(v?a.playing:a.stopped),h.find("."+a.playPause).on("click",function(){return h.hasClass(a.playing)?(e(this).attr("title",t.strPlay).find("a").html(t.strPlay),h.removeClass(a.playing).addClass(a.stopped),c?f.pause():f.Stop()):(e(this).attr("title",t.strPause).find("a").html(t.strPause),h.addClass(a.playing).removeClass(a.stopped),c?f.play():f.Play()),!1}),r.replaceWith(h)}),this}}(jQuery,window,document);
+</script>
+<script>
+$( 'audio' ).audioPlayer(
+{
+	strPlay: 'Play', // default value: 'Play'
+	strPause: 'Pause', // default value: 'Pause'
+	strVolume: 'Volume', // default value: 'Volume'
+});
+</script>
+
+
+   </body>
+</html>

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "brodie.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.0.0.309"/>
+  <title>BRODIE</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?3950230183"/>
+  <link rel="stylesheet" type="text/css" href="css/brodie.css?10610721" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans-condensed:n7:default.js" type="text/javascript">\x3C/script>');
+</script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--HTML Widget code-->
+    
+<style>
+
+.audioplayer
+{
+	height: 2.5em; /* 40 */
+	position: relative;
+	z-index: 1;
+}
+	.audioplayer-mini
+	{
+		width: 2.5em; /* 40 */
+		margin: 0 auto;
+	}
+	.audioplayer > div
+	{
+		position: absolute;
+	}
+.audioplayer {
+    color: #FFFFFF;
+	background: #333333;
+}
+    
+.audioplayer-playpause
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+	.audioplayer-mini .audioplayer-playpause
+	{
+		width: 100%;
+	}
+    
+    /* Color */
+	.audioplayer-playpause:hover,
+	.audioplayer-playpause:focus
+	{
+		background-color: 222222;
+	}
+	.audioplayer-playpause a
+	{
+		display: block;
+	}
+
+	.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
+	{
+		width: 0;
+		height: 0;
+		border: 0.5em solid transparent; /* 8 */
+		border-right: none;
+		border-left-color: #FFFFFF;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.5em 0 0 -0.25em; /* 8 4 */
+	}
+
+	.audioplayer-playing .audioplayer-playpause a
+	{
+		width: 0.75em; /* 12 */
+		height: 0.75em; /* 12 */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.375em 0 0 -0.375em; /* 6 */
+	}
+    
+		.audioplayer-playing .audioplayer-playpause a:before,
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			width: 40%;
+			height: 100%;
+			background-color: #FFFFFF;
+			content: '';
+			position: absolute;
+			top: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:before
+		{
+			left: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			right: 0;
+		}
+        
+        
+.audioplayer-time
+{
+	width: 4.375em; /* 70 */
+	height: 100%;
+	line-height: 2.5em; /* 40 */
+	text-align: center;
+	z-index: 2;
+	top: 0;
+}
+	.audioplayer-time-current
+	{
+		border-left: 1px solid #111111;
+		left: 2.5em; /* 40 */
+	}
+	.audioplayer-time-duration
+	{
+		right: 2.5em; /* 40 */
+	}
+		.audioplayer-novolume .audioplayer-time-duration
+		{
+			border-right: 0;
+			right: 0;
+		}
+        
+       
+.audioplayer-bar
+{
+	height: 0.875em; /* 14 */
+	background-color: #222222;
+	cursor: pointer;
+	z-index: 1;
+	top: 50%;
+	right: 6.875em; /* 110 */
+	left: 6.875em; /* 110 */
+	margin-top: -0.438em; /* 7 */
+}
+	.audioplayer-novolume .audioplayer-bar
+	{
+		right: 4.375em; /* 70 */
+	}
+	.audioplayer-bar div
+	{
+		width: 0;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+    
+	.audioplayer-bar-loaded
+	{
+		background-color: #555555;
+		z-index: 1;
+	}
+
+	.audioplayer-bar-played
+	{
+        /* Accent Color */
+		background: #007FD1;
+		z-index: 2;
+	}
+
+.audioplayer-volume
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	border-left: 1px solid #111111;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	right: 0;
+}
+
+
+	.audioplayer-volume:hover,
+	.audioplayer-volume:focus
+	{
+		background-color: #222222;
+        
+
+	}
+	.audioplayer-volume-button
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+
+		.audioplayer-volume-button a
+		{
+			width: 0.313em; /* 5 */
+			height: 0.375em; /* 6 */
+			background-color: #FFFFFF;
+			display: block;
+			position: relative;
+			z-index: 1;
+			top: 40%;
+			left: 35%;
+		}
+			.audioplayer-volume-button a:before,
+			.audioplayer-volume-button a:after
+			{
+				content: '';
+				position: absolute;
+			}
+            
+			.audioplayer-volume-button a:before
+			{
+				width: 0;
+				height: 0;
+				border: 0.5em solid transparent; /* 8 */
+				border-left: none;
+				border-right-color: #FFFFFF;
+				z-index: 2;
+				top: 50%;
+				right: -0.25em;
+				margin-top: -0.5em; /* 8 */
+			}
+            
+            /* Color */
+			.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
+			{
+				/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
+				width: 0.313em; /* 5 */
+				height: 0.313em; /* 5 */
+				border: 0.25em double #FFFFFF; /* 4 */
+				border-width: 0.25em 0.25em 0 0; /* 4 */
+				left: 0.563em; /* 9 */
+				top: -0.063em; /* 1 */
+				-webkit-border-radius: 0 0.938em 0 0; /* 15 */
+				-moz-border-radius: 0 0.938em 0 0; /* 15 */
+				border-radius: 0 0.938em 0 0; /* 15 */
+				-webkit-transform: rotate( 45deg );
+				-moz-transform: rotate( 45deg );
+				-ms-transform: rotate( 45deg );
+				-o-transform: rotate( 45deg );
+				transform: rotate( 45deg );
+			}
+
+	.audioplayer-volume-adjust
+	{
+		width: 100%;
+		height: 6.25em; /* 100 */
+		cursor: default;
+		position: absolute;
+		left: 0;
+		top: -9999px;
+		background: #222222;
+        
+
+        
+	}
+		.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
+		{
+			opacity: 0;
+		}
+		.audioplayer-volume:hover .audioplayer-volume-adjust
+		{
+			top: auto;
+			bottom: 100%;
+		}
+		.audioplayer-volume-adjust > div
+		{
+			width: 40%;
+			height: 80%;
+			background-color: #555555;
+			cursor: pointer;
+			position: relative;
+			z-index: 1;
+			margin: 30% auto 0;
+		}
+        
+
+			.audioplayer-volume-adjust div div
+			{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+                /* Accent Color */
+				background: #007FD1;
+			}
+	.audioplayer-novolume .audioplayer-volume
+	{
+		display: none;
+	} 
+</style>
+
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="browser_width colelem" id="u260-bw">
+     <div id="u260"><!-- group -->
+      <div class="clearfix" id="u260_align_to_page">
+       <nav class="MenuBar clearfix grpelem" id="menuu1816"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u1817"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1820" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1821-4"><!-- content --><p>JOSHUA NGUYEN</p></div></a>
+        </div>
+       </nav>
+       <nav class="MenuBar clearfix grpelem" id="menuu1912"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u1927"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1930" href="composition.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1933-4"><!-- content --><p>COMPOSITION</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u1913"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1916" href="technical.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1918-4"><!-- content --><p>TECHNICAL</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u1920"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1921" href="performance.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1924-4"><!-- content --><p>PERFORMANCE</p></div></a>
+        </div>
+       </nav>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u2787-4-bw">
+     <div class="clearfix" id="u2787-4"><!-- content -->
+      <p><span id="u2787">MUSICAL COMPOSITION</span></p>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u2791-4-bw">
+     <div class="clearfix" id="u2791-4"><!-- content -->
+      <p>&quot;The Prime of Miss Jean Brodie&quot;</p>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u2790-4-bw">
+     <div class="clearfix" id="u2790-4"><!-- content -->
+      <p>ASSIGNMENT: Compose original music to be used in UIL One-Act Play.</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u2792-4"><!-- content -->
+     <p>&nbsp;&nbsp;&nbsp;&nbsp; In order to avoid the new licensing and copyright rules posed by UIL in 2016, I was assigned to compose original music for the Drama Dawg Theater Company's production of &quot;The Prime of Miss Jean Brodie&quot; for UIL One-Act Play. I had originally proposed to play the music live, but due to scheduling conflicts with events happening in both Band and Winter Guard on the same day, synthesized music was to be played instead.</p>
+    </div>
+    <div class="browser_width colelem" id="u2793-4-bw">
+     <div class="clearfix" id="u2793-4"><!-- content -->
+      <p>Composing</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u2821-17"><!-- content -->
+     <p id="u2821-5">&nbsp;&nbsp;&nbsp;&nbsp; It proved helpful that I had partaken in the Lone Star Youth Wind Orchestra during the 2016 season. For the first concert, we prepared a completely Celtic program. Thus made me more familiar with the sound of Celtic music. Then, I researched the music theory behind Celtic music and came across a <a class="nonblock" href="https://www.noteflight.com/discussions/16075">webpage</a> that gave me the knowledge to begin composing. Mainly, the information that I needed to compose Celtic music was:</p>
+     <p id="u2821-6">&nbsp;</p>
+     <p id="u2821-8">&quot;use of the mixolydian and dorian modes&quot;</p>
+     <p id="u2821-10">&quot;pentatonic scales&quot;</p>
+     <p id="u2821-12">&quot;irish flute or irish fiddle&quot;</p>
+     <p id="u2821-13">&nbsp;</p>
+     <p id="u2821-15">&nbsp;&nbsp;&nbsp;&nbsp; With these aspects in mind, I whipped up two pieces for use in transitions: one at a moderate tempo, and one at a slower tempo.</p>
+    </div>
+    <div class="clearfix colelem" id="u2830"><!-- column -->
+     <div class="clearfix colelem" id="pu2810-4"><!-- group -->
+      <div class="clearfix grpelem" id="u2810-4"><!-- content -->
+       <p>transition music</p>
+      </div>
+      <div class="clearfix grpelem" id="u2811-4"><!-- content -->
+       <p>slow transition music</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u2820"><!-- group -->
+      <div class="clip_frame grpelem" id="u2795"><!-- image -->
+       <img class="block" id="u2795_img" src="images/2016-05-25_10-44-18.jpg" alt="" width="413" height="251"/>
+      </div>
+      <div class="clip_frame grpelem" id="u2801"><!-- image -->
+       <img class="block" id="u2801_img" src="images/sibelius_2016-05-25_10-38-46.jpg" alt="" width="406" height="116"/>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu2814"><!-- group -->
+      <div class="grpelem" id="u2814"><!-- custom html -->
+       
+		<div id="wrapper">
+			<audio preload="auto" controls>
+            <!--<source src=" "><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			 <source src="assets/transition.wav"><!-- Hide -->
+			</audio>
+
+			</div>
+
+</div>
+      <div class="grpelem" id="u2816"><!-- custom html -->
+       
+		<div id="wrapper">
+			<audio preload="auto" controls>
+            <!--<source src=" "><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			 <source src="assets/slowtransition.wav"><!-- Hide -->
+			</audio>
+
+			</div>
+
+</div>
+     </div>
+    </div>
+    <div class="SlideShowWidget clearfix widget_invisible pinned-colelem" id="slideshowu2831"><!-- none box -->
+     <div class="popup_anchor" id="u2832popup">
+      <div class="SlideShowContentPanel rgba-background clearfix" id="u2832"><!-- stack box -->
+       <div class="SSSlide clip_frame grpelem" id="u2917"><!-- image -->
+        <img class="block ImageInclude" id="u2917_img" data-src="images/10357794_10208412648970436_7085846793035690012_o.jpg" src="images/blank.gif" alt="" data-width="877" data-height="414"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u2926"><!-- image -->
+        <img class="block ImageInclude" id="u2926_img" data-src="images/11063534_10208412647410397_2413009894998165447_o.jpg" src="images/blank.gif" alt="" data-width="819" data-height="461"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u2935"><!-- image -->
+        <img class="block ImageInclude" id="u2935_img" data-src="images/12474024_10208412646290369_2704726509831266504_o.jpg" src="images/blank.gif" alt="" data-width="540" data-height="460"/>
+       </div>
+       <div class="SSSlide invi clip_frame grpelem" id="u2944"><!-- image -->
+        <img class="block ImageInclude" id="u2944_img" data-src="images/12525537_10208412652570526_5309556586934109332_o.jpg" src="images/blank.gif" alt="" data-width="745" data-height="461"/>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u2850popup">
+      <div class="SSSlideLinks clearfix" id="u2850"><!-- horizontal-rows box -->
+       <div class="SSSlideLink clip_frame grpelem" id="u2920"><!-- image -->
+        <img class="block" id="u2920_img" src="images/10357794_10208412648970436_7085846793035690012_o-crop-u2920.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame grpelem" id="u2929"><!-- image -->
+        <img class="block" id="u2929_img" src="images/11063534_10208412647410397_2413009894998165447_o-crop-u2929.jpg" alt="" width="100" height="75"/>
+       </div>
+       <div class="SSSlideLink clip_frame clearfix grpelem" id="u2938"><!-- image -->
+        <div id="u2938_clip">
+         <img class="position_content" id="u2938_img" src="images/12474024_10208412646290369_2704726509831266504_o100x86.jpg" alt="" width="100" height="85"/>
+        </div>
+       </div>
+       <div class="SSSlideLink clip_frame clearfix grpelem" id="u2947"><!-- image -->
+        <div id="u2947_clip">
+         <img class="position_content" id="u2947_img" src="images/12525537_10208412652570526_5309556586934109332_o122x75.jpg" alt="" width="121" height="75"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u2847-4popup">
+      <div class="SSPreviousButton clearfix" id="u2847-4"><!-- content -->
+       <p>&lt;</p>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u2874-4popup">
+      <div class="SSNextButton clearfix" id="u2874-4"><!-- content -->
+       <p>&gt;</p>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?183364071" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?3957776250" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
+  <script src="scripts/webpro.js?3803554875" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow.js?242596657" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlay.js?493285861" type="text/javascript"></script>
+  <script src="scripts/touchswipe.js?4038331989" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.resizeHeight()/* resize height */
+Muse.Utils.initWidget('#slideshowu2831', function(elem) { $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:5000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false})); });/* #slideshowu2831 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+  
+  <!--HTML Widget code-->
+  
+<script>
+!function(e,t,a){var i="ontouchstart"in t,n=i?"touchstart":"mousedown",o=i?"touchmove":"mousemove",d=i?"touchcancel":"mouseup",u=function(e){var t=e/3600,a=Math.floor(t),i=e%3600/60,n=Math.floor(i),o=Math.ceil(e%3600%60);return o>59&&(o=0,n=Math.ceil(i)),n>59&&(n=0,a=Math.ceil(t)),(0==a?"":a>0&&a.toString().length<2?"0"+a+":":a+":")+(n.toString().length<2?"0"+n:n)+":"+(o.toString().length<2?"0"+o:o)},l=function(e){var t=a.createElement("audio");return!(!t.canPlayType||!t.canPlayType("audio/"+e.split(".").pop().toLowerCase()+";").replace(/no/,""))};e.fn.audioPlayer=function(t){var t=e.extend({classPrefix:"audioplayer",strPlay:"Play",strPause:"Pause",strVolume:"Volume"},t),a={},r={playPause:"playpause",playing:"playing",stopped:"stopped",time:"time",timeCurrent:"time-current",timeDuration:"time-duration",bar:"bar",barLoaded:"bar-loaded",barPlayed:"bar-played",volume:"volume",volumeButton:"volume-button",volumeAdjust:"volume-adjust",noVolume:"novolume",muted:"muted",mini:"mini"};for(var s in r)a[s]=t.classPrefix+"-"+r[s];return this.each(function(){if("audio"!=e(this).prop("tagName").toLowerCase())return!1;var r=e(this),s=r.attr("src"),v=r.get(0).getAttribute("autoplay"),v=""===v||"autoplay"===v?!0:!1,m=r.get(0).getAttribute("loop"),m=""===m||"loop"===m?!0:!1,c=!1;"undefined"==typeof s?r.find("source").each(function(){return s=e(this).attr("src"),"undefined"!=typeof s&&l(s)?(c=!0,!1):void 0}):l(s)&&(c=!0);var h=e('<div class="'+t.classPrefix+'">'+(c?e("<div>").append(r.eq(0).clone()).html():'<embed src="'+s+'" width="0" height="0" volume="100" autostart="'+v.toString()+'" loop="'+m.toString()+'" />')+'<div class="'+a.playPause+'" title="'+t.strPlay+'"><a href="#">'+t.strPlay+"</a></div></div>"),f=h.find(c?"audio":"embed"),f=f.get(0);if(c){h.find("audio").css({width:0,height:0,visibility:"hidden"}),h.append('<div class="'+a.time+" "+a.timeCurrent+'"></div><div class="'+a.bar+'"><div class="'+a.barLoaded+'"></div><div class="'+a.barPlayed+'"></div></div><div class="'+a.time+" "+a.timeDuration+'"></div><div class="'+a.volume+'"><div class="'+a.volumeButton+'" title="'+t.strVolume+'"><a href="#">'+t.strVolume+'</a></div><div class="'+a.volumeAdjust+'"><div><div></div></div></div></div>');var p=h.find("."+a.bar),y=h.find("."+a.barPlayed),g=h.find("."+a.barLoaded),b=h.find("."+a.timeCurrent),P=h.find("."+a.timeDuration),C=h.find("."+a.volumeButton),E=h.find("."+a.volumeAdjust+" > div"),w=0,M=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.currentTime=Math.round(f.duration*(theRealEvent.pageX-p.offset().left)/p.width())},L=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.volume=Math.abs((theRealEvent.pageY-(E.offset().top+E.height()))/E.height())},S=function(){var e=setInterval(function(){return f.buffered.length<1?!0:(g.width(f.buffered.end(0)/f.duration*100+"%"),void(Math.floor(f.buffered.end(0))>=Math.floor(f.duration)&&clearInterval(e)))},100)},V=f.volume,j=f.volume=.111;Math.round(1e3*f.volume)/1e3==j?f.volume=V:h.addClass(a.noVolume),P.html("…"),b.html(u(0)),f.addEventListener("loadeddata",function(){S(),P.html(e.isNumeric(f.duration)?u(f.duration):"…"),E.find("div").height(100*f.volume+"%"),w=f.volume}),f.addEventListener("timeupdate",function(){b.html(u(f.currentTime)),y.width(f.currentTime/f.duration*100+"%")}),f.addEventListener("volumechange",function(){E.find("div").height(100*f.volume+"%"),f.volume>0&&h.hasClass(a.muted)&&h.removeClass(a.muted),f.volume<=0&&!h.hasClass(a.muted)&&h.addClass(a.muted)}),f.addEventListener("ended",function(){h.removeClass(a.playing).addClass(a.stopped)}),p.on(n,function(e){M(e),p.on(o,function(e){M(e)})}).on(d,function(){p.unbind(o)}),C.on("click",function(){return h.hasClass(a.muted)?(h.removeClass(a.muted),f.volume=w):(h.addClass(a.muted),w=f.volume,f.volume=0),!1}),E.on(n,function(e){L(e),E.on(o,function(e){L(e)})}).on(d,function(){E.unbind(o)})}else h.addClass(a.mini);h.addClass(v?a.playing:a.stopped),h.find("."+a.playPause).on("click",function(){return h.hasClass(a.playing)?(e(this).attr("title",t.strPlay).find("a").html(t.strPlay),h.removeClass(a.playing).addClass(a.stopped),c?f.pause():f.Stop()):(e(this).attr("title",t.strPause).find("a").html(t.strPause),h.addClass(a.playing).removeClass(a.stopped),c?f.play():f.Play()),!1}),r.replaceWith(h)}),this}}(jQuery,window,document);
+</script>
+<script>
+$( 'audio' ).audioPlayer(
+{
+	strPlay: 'Play', // default value: 'Play'
+	strPause: 'Pause', // default value: 'Pause'
+	strVolume: 'Volume', // default value: 'Volume'
+});
+</script>
+
+
+   </body>
+</html>
