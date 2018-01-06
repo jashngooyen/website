@@ -1,7 +1,7 @@
 .version.dirty_rotten_scoundrels /* version checker */
 {
-	color: #0000FF;
-	background-color: #B69993;
+	color: #000014;
+	background-color: #4B53D0;
 }
 
 .html
@@ -789,9 +789,9 @@
 	width: 30px;
 	min-height: 30px;
 	background-color: transparent;
-	line-height: 20px;
 	color: #FFFFFF;
 	text-align: center;
+	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	top: 561px;
@@ -809,9 +809,9 @@
 	width: 30px;
 	min-height: 30px;
 	background-color: transparent;
-	line-height: 20px;
 	color: #FFFFFF;
 	text-align: center;
+	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	top: 560px;

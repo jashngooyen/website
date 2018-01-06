@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://nintendoto.github.io/website" resolutions="1x" timestamp="1464880362463">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://nintendoto.github.io/website" resolutions="1x" timestamp="1515217141509">
   <folder name="phone">
     <folder name="css">
       <file name="cereal-box.css" crc="4107295331" ref="phone>cereal-box"/>
@@ -44,7 +44,7 @@
     <file name="cereal-box.html" crc="3958544805" seo="true" mt="1464489575541" redirect="false"/>
     <file name="junior.html" crc="252465123" seo="true" mt="1464489575645" redirect="false"/>
     <file name="interview.html" crc="361121982" seo="true" mt="1464489575731" redirect="false"/>
-    <file name="short-film.html" crc="3860906311" seo="true" mt="1464489575808" redirect="false"/>
+    <file name="short-film.html" crc="318273343" seo="true" mt="1481822146224" redirect="false"/>
     <file name="dirty-rotten-scoundrels.html" crc="321000322" seo="true" mt="1464489575934" redirect="false"/>
     <file name="brodie.html" crc="4132028049" seo="true" mt="1464489576044" redirect="false"/>
     <file name="souvenir.html" crc="3899361584" seo="true" mt="1464489576129" redirect="false"/>
@@ -66,28 +66,27 @@
   <folder name="assets">
     <file name="transition.wav" crc="358632074" seo="true" mt="1456258726000"/>
     <file name="slowtransition.wav" crc="4182111606" seo="true" mt="1456258081000"/>
-    <file name="souveniraria.wav" crc="515914833" seo="true" mt="1463246855000"/>
+    <file name="souveniraria.wav" crc="515914833" seo="true" mt="1464879998000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="master_a-master.css" crc="3950230183" ref="14-15-concert:concert-band:15-16-guard:short-film:technical:junior:marching-band:audio-overhaul:performance:senior:junior-high:mmm:preamble-project:winter-guard:dirty-rotten-scoundrels:light-show:14-15-guard:14-15-marching:brodie:sophopmore:15-16-marching:13-14-marching:composition:interview:souvenir:15-16-concert:15-16-lsyw:cereal-box:16-17-marching:campaign"/>
+    <file name="master_a-master.css" crc="3950230183" ref="14-15-concert:concert-band:15-16-guard:technical:junior:marching-band:audio-overhaul:performance:senior:junior-high:mmm:preamble-project:winter-guard:dirty-rotten-scoundrels:light-show:14-15-guard:14-15-marching:brodie:sophopmore:15-16-marching:13-14-marching:composition:interview:souvenir:15-16-concert:15-16-lsyw:cereal-box:16-17-marching:campaign:stephanie-hero:freshmanc:pumpkin:16-17-concert:16-17-guard:16-17-lsyw"/>
     <file name="14-15-concert.css" crc="371143350" ref="14-15-concert"/>
     <file name="concert-band.css" crc="371143350" ref="concert-band"/>
     <file name="15-16-guard.css" crc="371143350" ref="15-16-guard"/>
-    <file name="short-film.css" crc="228889121" ref="short-film"/>
-    <file name="technical.css" crc="3811954880" ref="technical"/>
-    <file name="junior.css" crc="36887932" ref="junior"/>
-    <file name="marching-band.css" crc="3803390427" ref="marching-band"/>
+    <file name="technical.css" crc="4286255791" ref="technical"/>
+    <file name="junior.css" crc="4207414462" ref="junior"/>
+    <file name="marching-band.css" crc="3854399445" ref="marching-band"/>
     <file name="index.css" crc="500570238" ref="index"/>
     <file name="audio-overhaul.css" crc="4029092134" ref="audio-overhaul"/>
     <file name="performance.css" crc="3759398380" ref="performance"/>
-    <file name="senior.css" crc="4261316487" ref="senior"/>
-    <file name="junior-high.css" crc="371143350" ref="junior-high"/>
+    <file name="senior.css" crc="453811446" ref="senior"/>
+    <file name="junior-high.css" crc="465262731" ref="junior-high"/>
     <file name="mmm.css" crc="371143350" ref="mmm"/>
     <file name="preamble-project.css" crc="371143350" ref="preamble-project"/>
-    <file name="winter-guard.css" crc="371143350" ref="winter-guard"/>
-    <file name="dirty-rotten-scoundrels.css" crc="4290156947" ref="dirty-rotten-scoundrels"/>
-    <file name="light-show.css" crc="456578537" ref="light-show"/>
+    <file name="winter-guard.css" crc="3926606104" ref="winter-guard"/>
+    <file name="dirty-rotten-scoundrels.css" crc="340480976" ref="dirty-rotten-scoundrels"/>
+    <file name="light-show.css" crc="4148362942" ref="light-show"/>
     <file name="14-15-guard.css" crc="371143350" ref="14-15-guard"/>
     <file name="14-15-marching.css" crc="3856867312" ref="14-15-marching"/>
     <file name="brodie.css" crc="10610721" ref="brodie"/>
@@ -96,25 +95,31 @@
     <file name="13-14-marching.css" crc="472479206" ref="13-14-marching"/>
     <file name="composition.css" crc="375459846" ref="composition"/>
     <file name="interview.css" crc="166663794" ref="interview"/>
-    <file name="souvenir.css" crc="3866828213" ref="souvenir"/>
+    <file name="souvenir.css" crc="223587476" ref="souvenir"/>
     <file name="15-16-concert.css" crc="371143350" ref="15-16-concert"/>
-    <file name="15-16-lsyw.css" crc="489511879" ref="15-16-lsyw"/>
+    <file name="15-16-lsyw.css" crc="3801736452" ref="15-16-lsyw"/>
     <file name="cereal-box.css" crc="3762652853" ref="cereal-box"/>
-    <file name="16-17-marching.css" crc="126129034" ref="16-17-marching"/>
-    <file name="campaign.css" crc="4100057477" ref="campaign"/>
+    <file name="16-17-marching.css" crc="3921687325" ref="16-17-marching"/>
+    <file name="campaign.css" crc="135555778" ref="campaign"/>
+    <file name="stephanie-hero.css" crc="371143350" ref="stephanie-hero"/>
+    <file name="freshmanc.css" crc="371143350" ref="freshmanc"/>
+    <file name="pumpkin.css" crc="228889121" ref="pumpkin"/>
+    <file name="16-17-concert.css" crc="371143350" ref="16-17-concert"/>
+    <file name="16-17-guard.css" crc="371143350" ref="16-17-guard"/>
+    <file name="16-17-lsyw.css" crc="371143350" ref="16-17-lsyw"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:short-film:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:phone>index:phone>composition:phone>technical:phone>junior-high:phone>preamble-project:phone>mmm:phone>sophopmore:phone>audio-overhaul:phone>light-show:phone>cereal-box:phone>junior:phone>interview:phone>short-film:phone>dirty-rotten-scoundrels:phone>brodie:phone>souvenir:phone>senior:phone>performance:phone>marching-band:phone>13-14-marching:phone>14-15-marching:phone>15-16-marching:phone>16-17-marching:phone>concert-band:phone>14-15-concert:phone>15-16-lsyw:phone>15-16-concert:phone>winter-guard:phone>14-15-guard:phone>15-16-guard:campaign"/>
-    <file name="museutils.js" crc="183364071" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:short-film:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:phone>index:phone>composition:phone>technical:phone>junior-high:phone>preamble-project:phone>mmm:phone>sophopmore:phone>audio-overhaul:phone>light-show:phone>cereal-box:phone>junior:phone>interview:phone>short-film:phone>dirty-rotten-scoundrels:phone>brodie:phone>souvenir:phone>senior:phone>performance:phone>marching-band:phone>13-14-marching:phone>14-15-marching:phone>15-16-marching:phone>16-17-marching:phone>concert-band:phone>14-15-concert:phone>15-16-lsyw:phone>15-16-concert:phone>winter-guard:phone>14-15-guard:phone>15-16-guard:campaign"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:phone>index:phone>composition:phone>technical:phone>junior-high:phone>preamble-project:phone>mmm:phone>sophopmore:phone>audio-overhaul:phone>light-show:phone>cereal-box:phone>junior:phone>interview:phone>short-film:phone>dirty-rotten-scoundrels:phone>brodie:phone>souvenir:phone>senior:phone>performance:phone>marching-band:phone>13-14-marching:phone>14-15-marching:phone>15-16-marching:phone>16-17-marching:phone>concert-band:phone>14-15-concert:phone>15-16-lsyw:phone>15-16-concert:phone>winter-guard:phone>14-15-guard:phone>15-16-guard:campaign:pumpkin:16-17-guard:stephanie-hero:16-17-lsyw:16-17-concert:freshmanc"/>
+    <file name="museutils.js" crc="183364071" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:phone>index:phone>composition:phone>technical:phone>junior-high:phone>preamble-project:phone>mmm:phone>sophopmore:phone>audio-overhaul:phone>light-show:phone>cereal-box:phone>junior:phone>interview:phone>short-film:phone>dirty-rotten-scoundrels:phone>brodie:phone>souvenir:phone>senior:phone>performance:phone>marching-band:phone>13-14-marching:phone>14-15-marching:phone>15-16-marching:phone>16-17-marching:phone>concert-band:phone>14-15-concert:phone>15-16-lsyw:phone>15-16-concert:phone>winter-guard:phone>14-15-guard:phone>15-16-guard:campaign:pumpkin:16-17-guard:stephanie-hero:16-17-lsyw:16-17-concert:freshmanc"/>
     <file name="webpro.js" crc="3803554875" ref="index:dirty-rotten-scoundrels:brodie:souvenir"/>
     <file name="musewpslideshow.js" crc="242596657" ref="index:dirty-rotten-scoundrels:brodie:souvenir"/>
     <file name="jquery.museoverlay.js" crc="493285861" ref="index:dirty-rotten-scoundrels:brodie:souvenir"/>
     <file name="touchswipe.js" crc="4038331989" ref="index:dirty-rotten-scoundrels:brodie:souvenir"/>
-    <file name="jquery.musemenu.js" crc="3957776250" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:short-film:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:campaign"/>
-    <file name="jquery.watch.js" crc="71412426" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:short-film:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:phone>index:phone>composition:phone>technical:phone>junior-high:phone>preamble-project:phone>mmm:phone>sophopmore:phone>audio-overhaul:phone>light-show:phone>cereal-box:phone>junior:phone>interview:phone>short-film:phone>dirty-rotten-scoundrels:phone>brodie:phone>souvenir:phone>senior:phone>performance:phone>marching-band:phone>13-14-marching:phone>14-15-marching:phone>15-16-marching:phone>16-17-marching:phone>concert-band:phone>14-15-concert:phone>15-16-lsyw:phone>15-16-concert:phone>winter-guard:phone>14-15-guard:phone>15-16-guard:campaign"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:short-film:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:campaign"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="technical:sophopmore:junior"/>
-    <file name="pie.js" crc="3827607177" ref="technical:sophopmore:junior:dirty-rotten-scoundrels:brodie:performance:souvenir:marching-band"/>
+    <file name="jquery.musemenu.js" crc="3957776250" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:campaign:pumpkin:16-17-guard:stephanie-hero:16-17-lsyw:16-17-concert:freshmanc"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:phone>index:phone>composition:phone>technical:phone>junior-high:phone>preamble-project:phone>mmm:phone>sophopmore:phone>audio-overhaul:phone>light-show:phone>cereal-box:phone>junior:phone>interview:phone>short-film:phone>dirty-rotten-scoundrels:phone>brodie:phone>souvenir:phone>senior:phone>performance:phone>marching-band:phone>13-14-marching:phone>14-15-marching:phone>15-16-marching:phone>16-17-marching:phone>concert-band:phone>14-15-concert:phone>15-16-lsyw:phone>15-16-concert:phone>winter-guard:phone>14-15-guard:phone>15-16-guard:campaign:pumpkin:16-17-guard:stephanie-hero:16-17-lsyw:16-17-concert:freshmanc"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:technical:performance:marching-band:concert-band:winter-guard:13-14-marching:14-15-marching:15-16-marching:14-15-concert:15-16-concert:14-15-guard:15-16-guard:sophopmore:junior:senior:dirty-rotten-scoundrels:light-show:brodie:souvenir:interview:composition:audio-overhaul:junior-high:mmm:preamble-project:cereal-box:15-16-lsyw:16-17-marching:campaign:pumpkin:16-17-guard:stephanie-hero:16-17-lsyw:16-17-concert:freshmanc"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="technical:sophopmore:junior:marching-band:senior"/>
+    <file name="pie.js" crc="3827607177" ref="technical:sophopmore:junior:dirty-rotten-scoundrels:brodie:performance:souvenir:marching-band:winter-guard:senior:junior-high"/>
     <file name="jquery.scrolleffects.js" crc="3860644955" ref="dirty-rotten-scoundrels"/>
   </folder>
   <folder name="images">
@@ -160,21 +165,17 @@
     <file name="12208295_10153228911036334_6280743421996147968_n.jpg" crc="386057015" seo="true" ref="index"/>
     <file name="12208581_10153228911101334_2651623246689946889_n.jpg" crc="448510790" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index:dirty-rotten-scoundrels:brodie:souvenir"/>
-    <file name="10407893_10200387133157793_1545247293051927714_n-u1979-fr.jpg" crc="384257747" ref="technical"/>
     <file name="6c0bf583f98fbf936329259548b9f677.png" crc="4112692575" ref="technical"/>
-    <file name="img_9394-u1965-fr.jpg" crc="4223668720" ref="technical"/>
     <file name="vlcsnap-2016-05-19-08h52m59s251.jpg" crc="398508991" ref="sophopmore"/>
     <file name="vlcsnap-2016-05-19-09h10m41s142.jpg" crc="4263704293" ref="sophopmore"/>
-    <file name="maxresdefault.jpg" crc="4106247126" ref="junior"/>
-    <file name="img_9394.jpg" crc="4223668720" ref="junior"/>
-    <file name="20151129_233736edit.jpg" crc="201242260" ref="junior"/>
+    <file name="img_9394.jpg" crc="197456966" ref="junior:technical:senior"/>
+    <file name="20151129_233736edit.jpg" crc="201242260" ref="junior:senior"/>
     <file name="11063534_10208412647410397_2413009894998165447_o.jpg" crc="4224868739" ref="brodie" seo="true"/>
-    <file name="sbc_pw-cu-class17.jpg" crc="273114152" seo="true" ref="senior"/>
-    <file name="2016-05-19_12-35-38.jpg" crc="4046746812" seo="true" ref="light-show"/>
+    <file name="2016-05-19_12-35-38.jpg" crc="478545742" seo="true" ref="light-show"/>
     <file name="2016-05-19_13-59-15-crop-u2203.jpg" crc="3876046997" ref="light-show"/>
     <file name="2016-05-20_10-42-24.jpg" crc="4049457324" seo="true" ref="audio-overhaul"/>
     <file name="cover.jpg" crc="3772745966" ref="sophopmore"/>
-    <file name="11063534_10208412647410397_2413009894998165447_o-u2130-fr.jpg" crc="311017383" ref="junior"/>
+    <file name="11063534_10208412647410397_2413009894998165447_o-u2130-fr.jpg" crc="311017383" ref="junior:senior"/>
     <file name="snapchat-7419281741908397081.jpg" crc="3876081009" seo="true" ref="dirty-rotten-scoundrels"/>
     <file name="snapchat-3457307120415043272.jpg" crc="61366511" seo="true" ref="dirty-rotten-scoundrels"/>
     <file name="img_9236.jpg" crc="485664372" seo="true" ref="dirty-rotten-scoundrels"/>
@@ -199,7 +200,7 @@
     <file name="12474024_10208412646290369_2704726509831266504_o100x86.jpg" crc="500468289" seo="true" ref="brodie"/>
     <file name="12525537_10208412652570526_5309556586934109332_o122x75.jpg" crc="3952195311" seo="true" ref="brodie"/>
     <file name="2016-05-25_02-01-14.jpg" crc="4117448777" seo="true" ref="interview"/>
-    <file name="2016-05-22_22-49-20-crop-u2286.jpg" crc="3844744093" ref="short-film"/>
+    <file name="2016-05-22_22-49-20-crop-u2286.jpg" crc="3844744093" ref="pumpkin"/>
     <file name="recordingobs (34)_1.gif" crc="250456245" seo="true" ref="cereal-box"/>
     <file name="karla edge 1535.jpg" crc="368986249" seo="true" ref="souvenir"/>
     <file name="karla edge 1543.jpg" crc="96339697" seo="true" ref="souvenir"/>
@@ -221,38 +222,49 @@
     <file name="karla edge 1584-crop-u3733.jpg" crc="327253623" ref="souvenir"/>
     <file name="karla edge 1585-crop-u3742.jpg" crc="221091260" ref="souvenir"/>
     <file name="karla edge 1606-crop-u3751.jpg" crc="136386763" ref="souvenir"/>
-    <file name="karla edge 1564.jpg" crc="4060767306" ref="junior"/>
-    <file name="maxresdefault (3).jpg" crc="26117875" ref="junior"/>
+    <file name="karla edge 1564.jpg" crc="4060767306" ref="junior:senior"/>
+    <file name="maxresdefault (3).jpg" crc="26117875" ref="junior:senior"/>
+    <file name="10407893_10200387133157793_1545247293051927714_n.jpg" crc="384257747" ref="technical"/>
+    <file name="firefox_2018-01-05_23-00-00.jpg" crc="4123749948" ref="marching-band"/>
+    <file name="firefox_2018-01-05_23-05-40.jpg" crc="444355084" ref="marching-band"/>
+    <file name="firefox_2018-01-05_23-07-48.jpg" crc="4054513546" ref="marching-band"/>
+    <file name="firefox_2018-01-05_23-24-39.jpg" crc="4087575010" ref="marching-band"/>
+    <file name="all out poster.jpg" crc="99556201" ref="junior:senior"/>
   </folder>
   <file name="index.html" crc="3948743898" mt="1464490111579" redirect="true"/>
-  <file name="technical.html" crc="267813358" seo="true" mt="1464490087047" redirect="true"/>
+  <file name="technical.html" crc="493626408" seo="true" mt="1481750055253" redirect="true"/>
   <file name="performance.html" crc="3855241875" seo="true" mt="1464879471131" redirect="true"/>
-  <file name="marching-band.html" crc="3889101296" seo="true" mt="1464880136667" redirect="true"/>
+  <file name="marching-band.html" crc="424613140" seo="true" mt="1515216884650" redirect="true"/>
   <file name="concert-band.html" crc="452780721" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="winter-guard.html" crc="135424029" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="13-14-marching.html" crc="112201054" seo="true" mt="1464790355579" redirect="true"/>
-  <file name="14-15-marching.html" crc="3799981275" seo="true" mt="1464790377084" redirect="true"/>
-  <file name="15-16-marching.html" crc="408910762" seo="true" mt="1464880346906" redirect="true"/>
+  <file name="winter-guard.html" crc="375101893" seo="true" mt="1515214660612" redirect="true"/>
+  <file name="13-14-marching.html" crc="417228190" seo="true" mt="1515214685634" redirect="true"/>
+  <file name="14-15-marching.html" crc="520424227" seo="true" mt="1515215155220" redirect="true"/>
+  <file name="15-16-marching.html" crc="323347762" seo="true" mt="1515215281376" redirect="true"/>
   <file name="14-15-concert.html" crc="80126040" seo="true" mt="1464490087047" redirect="true"/>
   <file name="15-16-concert.html" crc="4238311411" seo="true" mt="1464490087047" redirect="true"/>
   <file name="14-15-guard.html" crc="301933794" seo="true" mt="1464490087047" redirect="true"/>
   <file name="15-16-guard.html" crc="3936084869" seo="true" mt="1464490087047" redirect="true"/>
   <file name="sophopmore.html" crc="3932778363" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="junior.html" crc="278566861" seo="true" mt="1464879994803" redirect="true"/>
-  <file name="senior.html" crc="3914735547" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="dirty-rotten-scoundrels.html" crc="4135708455" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="light-show.html" crc="22069101" seo="true" mt="1464490087047" redirect="true"/>
+  <file name="junior.html" crc="526556361" seo="true" mt="1515216884219" redirect="true"/>
+  <file name="senior.html" crc="3905073049" seo="true" mt="1515216884217" redirect="true"/>
+  <file name="dirty-rotten-scoundrels.html" crc="4243371706" seo="true" mt="1477935287140" redirect="true"/>
+  <file name="light-show.html" crc="278101575" seo="true" mt="1515214069998" redirect="true"/>
   <file name="brodie.html" crc="531737789" seo="true" mt="1464789476461" redirect="true"/>
-  <file name="souvenir.html" crc="4152298959" seo="true" mt="1464879316279" redirect="true"/>
+  <file name="souvenir.html" crc="4214857777" seo="true" mt="1515214294947" redirect="true"/>
   <file name="interview.html" crc="28546599" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="composition.html" crc="3944869116" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="short-film.html" crc="3881677021" seo="true" mt="1464879688629" redirect="true"/>
+  <file name="composition.html" crc="253072516" seo="true" mt="1515214442420" redirect="true"/>
   <file name="audio-overhaul.html" crc="265073101" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="junior-high.html" crc="3826487679" seo="true" mt="1464490087047" redirect="true"/>
+  <file name="junior-high.html" crc="4092647460" seo="true" mt="1481821452277" redirect="true"/>
   <file name="mmm.html" crc="530207758" seo="true" mt="1464490087047" redirect="true"/>
   <file name="preamble-project.html" crc="4278474596" seo="true" mt="1464490087047" redirect="true"/>
   <file name="cereal-box.html" crc="4254584289" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="15-16-lsyw.html" crc="304749626" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="16-17-marching.html" crc="4267741302" seo="true" mt="1464790840449" redirect="true"/>
-  <file name="campaign.html" crc="4227649515" seo="true" mt="1464879979188" redirect="true"/>
+  <file name="15-16-lsyw.html" crc="3859322603" seo="true" mt="1481821662349" redirect="true"/>
+  <file name="16-17-marching.html" crc="3780582329" seo="true" mt="1515216660886" redirect="true"/>
+  <file name="campaign.html" crc="4246266828" seo="true" mt="1477935327144" redirect="true"/>
+  <file name="pumpkin.html" crc="4190833186" seo="true" mt="1481822146228" redirect="true"/>
+  <file name="16-17-guard.html" crc="171545743" seo="true" mt="1481821398976" redirect="true"/>
+  <file name="stephanie-hero.html" crc="431167938" seo="true" mt="1481821410084" redirect="true"/>
+  <file name="16-17-lsyw.html" crc="3937574840" seo="true" mt="1481821491682" redirect="true"/>
+  <file name="16-17-concert.html" crc="348102572" seo="true" mt="1481821508969" redirect="true"/>
+  <file name="freshmanc.html" crc="4217281973" seo="true" mt="1515214486585" redirect="true"/>
 </manifest>

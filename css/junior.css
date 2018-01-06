@@ -1,7 +1,7 @@
 .version.junior /* version checker */
 {
-	color: #000002;
-	background-color: #32DD7C;
+	color: #0000FA;
+	background-color: #C80CBE;
 }
 
 .html
@@ -303,7 +303,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 1px;
-	background: transparent url("../images/maxresdefault.jpg") no-repeat center center;
+	background: transparent url("../images/all%20out%20poster.jpg") no-repeat center center;
 	background-size: cover;
 }
 
