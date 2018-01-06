@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://nintendoto.github.io/website" resolutions="1x" timestamp="1515217566076">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://nintendoto.github.io/website" resolutions="1x" timestamp="1515217773389">
   <folder name="phone">
     <folder name="css">
       <file name="cereal-box.css" crc="4107295331" ref="phone>cereal-box"/>
@@ -252,7 +252,7 @@
   <file name="brodie.html" crc="531737789" seo="true" mt="1464789476461" redirect="true"/>
   <file name="souvenir.html" crc="4214857777" seo="true" mt="1515214294947" redirect="true"/>
   <file name="interview.html" crc="28546599" seo="true" mt="1464490087047" redirect="true"/>
-  <file name="composition.html" crc="253072516" seo="true" mt="1515214442420" redirect="true"/>
+  <file name="composition.html" crc="4196566172" seo="true" mt="1515217762842" redirect="true"/>
   <file name="audio-overhaul.html" crc="265073101" seo="true" mt="1464490087047" redirect="true"/>
   <file name="junior-high.html" crc="4092647460" seo="true" mt="1481821452277" redirect="true"/>
   <file name="mmm.html" crc="530207758" seo="true" mt="1464490087047" redirect="true"/>
