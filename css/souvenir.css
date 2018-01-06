@@ -1,7 +1,7 @@
 .version.souvenir /* version checker */
 {
-	color: #0000E6;
-	background-color: #7B1DB5;
+	color: #00000D;
+	background-color: #53AC94;
 }
 
 .html
@@ -722,9 +722,9 @@
 	width: 30px;
 	min-height: 30px;
 	background-color: transparent;
+	line-height: 20px;
 	color: #FFFFFF;
 	text-align: center;
-	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	top: 431px;
@@ -742,9 +742,9 @@
 	width: 30px;
 	min-height: 30px;
 	background-color: transparent;
+	line-height: 20px;
 	color: #FFFFFF;
 	text-align: center;
-	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	top: 430px;
