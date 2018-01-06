@@ -1,7 +1,7 @@
 .version.junior_high /* version checker */
 {
-	color: #00001B;
-	background-color: #BB588B;
+	color: #000016;
+	background-color: #1F32B6;
 }
 
 .html
@@ -13,12 +13,12 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 499.3071428571427px;
+	min-height: 499.99999999999994px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 1px;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -26,7 +26,7 @@
 #page_position_content
 {
 	margin-top: -36px;
-	padding-bottom: 157px;
+	padding-bottom: 438px;
 	width: 0.01px;
 }
 
@@ -287,107 +287,6 @@
 {
 	z-index: 2;
 	min-height: 56px;
-}
-
-#menuu3970
-{
-	z-index: 29;
-	width: 442px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	margin-left: 259px;
-	margin-top: 59px;
-	position: relative;
-}
-
-#u3971
-{
-	width: 442px;
-	min-height: 221px;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-}
-
-#u3974
-{
-	width: 442px;
-	background-color: #9E9E9E;
-	background-color: rgba(0,0,0,0.38);
-	padding-bottom: 199px;
-	position: relative;
-	-pie-background: rgba(0,0,0,0.38);
-}
-
-#u3974:hover
-{
-	background-color: #4F4F4F;
-	background-color: rgba(0,0,0,0.69);
-	width: 442px;
-	min-height: 0px;
-	margin: 0px;
-	-pie-background: rgba(0,0,0,0.69);
-}
-
-#u3974:active
-{
-	background-color: #000000;
-	background-color: rgba(0,0,0,1);
-	width: 442px;
-	min-height: 0px;
-	margin: 0px;
-	-pie-background: rgba(0,0,0,1);
-}
-
-#u3977-4
-{
-	width: 442px;
-	min-height: 22px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	line-height: 22px;
-	color: #FFFFFF;
-	font-size: 18px;
-	text-align: center;
-	font-family: open-sans-condensed, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-	top: 99px;
-}
-
-#u3974:hover #u3977-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 22px;
-	width: 442px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u3974:active #u3977-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 22px;
-	width: 442px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u3974.MuseMenuActive #u3977-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 22px;
-	width: 442px;
-	margin: 0px -10000px 0px 0px;
-}
-
-.MenuItem /* unifiedNavBar */
-{
-	cursor: pointer;
 }
 
 body

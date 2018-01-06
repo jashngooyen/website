@@ -1,7 +1,7 @@
 .version.campaign /* version checker */
 {
-	color: #000008;
-	background-color: #146AC2;
+	color: #0000F4;
+	background-color: #61E985;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 1079.55px;
+	min-height: 795px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -26,7 +25,7 @@
 #page_position_content
 {
 	margin-top: -36px;
-	padding-bottom: 62px;
+	padding-bottom: 48px;
 	width: 0.01px;
 }
 
@@ -343,41 +342,6 @@
 	background-color: transparent;
 	margin-left: 20px;
 	margin-top: 25px;
-	position: relative;
-}
-
-#u3849-4
-{
-	z-index: 45;
-	min-height: 27px;
-	background-color: transparent;
-	line-height: 26px;
-	font-size: 22px;
-	text-align: center;
-	font-family: open-sans-condensed, sans-serif;
-	font-weight: 700;
-}
-
-#u3849-4-bw
-{
-	z-index: 45;
-	min-height: 27px;
-	margin-top: 14px;
-}
-
-#u3848-7
-{
-	z-index: 38;
-	width: 920px;
-	min-height: 73px;
-	background-color: transparent;
-	line-height: 24px;
-	font-size: 20px;
-	text-align: left;
-	font-family: open-sans-condensed, sans-serif;
-	font-weight: 700;
-	margin-left: 20px;
-	margin-top: 14px;
 	position: relative;
 }
 
