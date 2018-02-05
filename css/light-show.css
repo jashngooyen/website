@@ -1,7 +1,7 @@
 .version.light_show /* version checker */
 {
-	color: #00001B;
-	background-color: #36D5E9;
+	color: #0000F7;
+	background-color: #42FEBE;
 }
 
 .html
@@ -412,8 +412,7 @@
 
 #u2191_img
 {
-	margin-top: -20px;
-	margin-bottom: -20px;
+	margin: -21px -14px -27px -1px;
 }
 
 #u2197-7

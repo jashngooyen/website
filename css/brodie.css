@@ -1,7 +1,7 @@
 .version.brodie /* version checker */
 {
-	color: #000000;
-	background-color: #A1E821;
+	color: #00000D;
+	background-color: #23D0CE;
 }
 
 .html
@@ -728,9 +728,9 @@
 	width: 30px;
 	min-height: 30px;
 	background-color: transparent;
+	line-height: 20px;
 	color: #FFFFFF;
 	text-align: center;
-	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	top: 561px;
@@ -748,9 +748,9 @@
 	width: 30px;
 	min-height: 30px;
 	background-color: transparent;
+	line-height: 20px;
 	color: #FFFFFF;
 	text-align: center;
-	line-height: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	top: 560px;

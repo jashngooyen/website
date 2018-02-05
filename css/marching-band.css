@@ -1,7 +1,7 @@
 .version.marching_band /* version checker */
 {
-	color: #0000E2;
-	background-color: #B321DB;
+	color: #0000E5;
+	background-color: #BD77D5;
 }
 
 .html
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 634.5142857142856px;
+	min-height: 634.9999999999999px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -26,7 +26,7 @@
 #page_position_content
 {
 	margin-top: -36px;
-	padding-bottom: 70px;
+	padding-bottom: 71px;
 	width: 0.01px;
 }
 
@@ -289,16 +289,57 @@
 	min-height: 56px;
 }
 
+#pu4095
+{
+	width: 0.01px;
+	margin-left: 148px;
+	margin-top: 58px;
+}
+
+#u4095
+{
+	z-index: 30;
+	width: 220px;
+	height: 221px;
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/firefox_2018-01-05_23-00-00.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#u4097
+{
+	z-index: 31;
+	width: 220px;
+	height: 221px;
+	position: relative;
+	margin-right: -10000px;
+	left: 222px;
+	background: transparent url("../images/firefox_2018-01-05_23-05-40.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#u4147
+{
+	z-index: 32;
+	width: 220px;
+	height: 221px;
+	position: relative;
+	margin-right: -10000px;
+	left: 444px;
+	background: transparent url("../images/firefox_2018-01-05_23-07-48.jpg") no-repeat center center;
+	background-size: cover;
+}
+
 #menuu3780
 {
-	z-index: 29;
+	z-index: 33;
 	width: 664px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 148px;
-	margin-top: 58px;
 	position: relative;
+	margin-right: -10000px;
 }
 
 #u3795
@@ -550,16 +591,26 @@
 	cursor: pointer;
 }
 
+#u4154
+{
+	z-index: 29;
+	width: 442px;
+	margin-left: 259px;
+	margin-top: 1px;
+	position: relative;
+	background: transparent url("../images/firefox_2018-01-05_23-24-39.jpg") no-repeat left center;
+	background-size: cover;
+}
+
 #menuu3804
 {
-	z-index: 48;
+	z-index: 52;
 	width: 442px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 259px;
-	margin-top: 3px;
 	position: relative;
+	margin-right: -10000px;
 }
 
 #u3805

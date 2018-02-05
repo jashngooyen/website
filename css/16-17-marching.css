@@ -1,7 +1,7 @@
 .version._16_17_marching /* version checker */
 {
-	color: #000007;
-	background-color: #84938A;
+	color: #0000E9;
+	background-color: #C0331D;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 499.9999999999999px;
+	min-height: 500px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -334,7 +333,7 @@
 
 #u3025
 {
-	z-index: 41;
+	z-index: 37;
 	width: 920px;
 	min-height: 518px;
 	border-style: none;
@@ -345,20 +344,29 @@
 	position: relative;
 }
 
-#u3024-4
+#u4167-21
 {
-	z-index: 37;
-	width: 213px;
-	min-height: 38px;
+	z-index: 38;
+	width: 920px;
+	min-height: 73px;
 	background-color: transparent;
-	line-height: 22px;
-	font-size: 18px;
-	text-align: center;
+	line-height: 24px;
+	font-size: 20px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
-	margin-left: 380px;
-	margin-top: 20px;
+	margin-left: 20px;
+	margin-top: 36px;
 	position: relative;
+}
+
+#u4167-2,#u4167-3
+{
+	text-align: left;
+}
+
+#u4167-5,#u4167-7,#u4167-9,#u4167-11,#u4167-13,#u4167-14,#u4167-18,#u4167-19
+{
+	text-align: center;
 }
 
 body
