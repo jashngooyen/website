@@ -1,3 +1,3 @@
-# Joshua Nguyen - Portfolio
+# Online Portfolio
 
 Using GitHub as a pseudo-host because I'm a poor college student.
